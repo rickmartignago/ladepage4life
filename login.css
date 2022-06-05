@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+    color: #323232;
+    border: none;
+  }
+  
+  .header {
+     background-color: rgb(239, 245, 247); 
+      display: flex; 
+      box-shadow: inset 0 0 1em rgb(10, 44, 6), 0 0 1em rgb(15, 46, 54);
+    justify-content: space-between;
+      background-image: url(img/topo2.jpg);
+      font-size: 40px;
+  }
+   
+  .navegation {
+      
+    font-size: 30px;
+    padding-top: 35px;
+    -webkit-box-shadow: 0 10px 20px 0 rgb(2, 2, 3);
+    color: black;
+   
+  }
+  
+  .navegation lo a {
+    float: left;
+    border-left: 10px solid #fafcfd;
+    color: black;
+  
+  } 
+    
+  body{
+    background-color: rgb(15, 46, 54);
+    background-size: cover;
+  
+  }
+  
+  a, h1, p, label{
+    color: rgb(248, 248, 244);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  a:hover{
+    color: rgb(248, 248, 244);
+  }
+  
+  /* container login */
+  
+  #container-login{
+    background-color: rgb(20, 61, 71);
+  /* background-image: url(../imagens/cxlogin.jpeg); */
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 15px;
+    text-align: center;
+  
+  }
+  
+  /* formulario */
+  
+  form{
+      color: #fafcfd;
+   
+    margin-top:30px ;
+    margin-bottom: 40px;
+    
+  }
+  
+  label, input{
+    color: #fafcfd;
+    display:block ;
+    width: 100%;
+    text-align: left;
+  }
+  
+  input{
+  
+    border-bottom:2px solid #f7efef;
+    padding: 10px;
+  font-size:20px ;
+  margin-bottom: 20px;
+  }
+  
+  
+  
